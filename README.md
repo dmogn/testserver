@@ -18,5 +18,7 @@ More advanced soution should has async client-syde connections and event queue p
 Usage:
 
 cd testserver
+
 mvn clean install
+
 mvn exec:java -Dexec.mainClass="de.kenkou.jobtest.server.Server"
